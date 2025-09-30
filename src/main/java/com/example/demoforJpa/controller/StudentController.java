@@ -13,7 +13,7 @@ public class StudentController {
 	public String saveStudent(@RequestBody Student student) {
 		
 		System.out.println(student);
-		return"success";
+		return"success,failure";
 	}
 
 }
